@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+    .navbar-container {
+        overflow-x: hidden; /* Hide horizontal scrollbar on smaller screens */
+    }
+
+    .custom-home-desktop-mode {
+        display: none !important;
+    }
+
+    .custom-content-heading {
+        max-width: 100%;
+    }
+
+    .custom-navbar-img-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .custom-home-mobile-mode {
+        display: none !important;
+    }
+
+    .custom-navbar-img-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Averta';
+    src: url('../fonts/averta-regular.otf') format('truetype'),
+         url('../fonts/averta-bold.otf') format('truetype');
+        /* Add more font weights and styles as needed */
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3AB14C;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #381B0E;
+}
+
+html body {
+    background-color: #FAFAFA;
+    font-family: 'Averta', sans-serif;
+}
+
+.custom-content {
+    padding: 32px !important; 
+}
+
+.custom-navbar-container {
+    overflow-x: auto; 
+    white-space: nowrap; 
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+    background-color: #3AB14C;
+}
+
+.custom-navbar-nav {
+    margin-left: auto;
+    justify-content: center;
+}
+
+.custom-content-center {
+    justify-content: center;
+}
+
+.custom-green-button {
+    background-color: #3AB14C !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.custom-green-button:hover {
+    background-color: #381B0E !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.custom-white-button {
+    background-color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.custom-white-button:hover {
+    background-color: #381B0E !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.custom-card {
+    border-radius: 0px !important;
+    border: none !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-mt-16 {
+    margin-top: 64px;
+}
+
+.custom-content-heading {
+    max-width: 60%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+}
+
+.custom-row {
+    margin: 0px !important;
+}
+
+.custom-float-right {
+    float: right !important;
+}
+
+.custom-cursor {
+    cursor: pointer;
+}
+
+.custom-about-us {
+    background-image: url("/src/assets/img/bg-3.png");
+    background-size: cover;
+}
+
+.navbar-toggler {
+    color: #FFFFFF !important;
+}
+
+.custom-badge {
+    font-size: larger;
+    border: #3AB14C 4px solid;
+    padding: 12px;
+    margin: 12px;
+}
+
+.custom-form {
+    border-radius: 0px !important;
+}
+
+.custom-footer-container {
+    padding: 32px;
+    background-color: #3AB14C;
+}
