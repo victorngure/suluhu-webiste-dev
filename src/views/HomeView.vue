@@ -290,6 +290,16 @@
   </div>
 </template>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D5ETE99HJY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D5ETE99HJY');
+</script>
+
 <script>
 import TopNavComponent from '@/components/TopNavComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
